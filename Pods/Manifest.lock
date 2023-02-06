@@ -1,0 +1,16 @@
+PODS:
+  - Haptico (1.1.1)
+
+DEPENDENCIES:
+  - Haptico
+
+SPEC REPOS:
+  trunk:
+    - Haptico
+
+SPEC CHECKSUMS:
+  Haptico: 3ab938425737e2b90939d41e1b23538cdbe1cf44
+
+PODFILE CHECKSUM: ce202446d1a2db64905db4f9689b56e7ad5e3287
+
+COCOAPODS: 1.10.1
