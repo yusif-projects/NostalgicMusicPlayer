@@ -46,7 +46,7 @@ class AlbumInfoVC: UIViewController {
     
     override func viewDidDisappear(_ animated: Bool) {
         if appDelegate.audioPlayer?.isPlaying == false {
-            appDelegate.activeAlbum = ([], (0,0))
+            appDelegate.activeAlbum = ([], (0, 0))
         }
     }
     
@@ -121,7 +121,7 @@ extension AlbumInfoVC: UITableViewDelegate, UITableViewDataSource {
             return cell
         default:
             let cell = tableView.dequeueReusableCell(withIdentifier: "AlbumSongCell") as! AlbumSongCell
-            let song = items[indexPath.section-1][indexPath.row]
+            let song = items[indexPath.section - 1][indexPath.row]
             cell.durationLabel.text = song.convertToSongItem().getDuration()
             cell.titleLabel.text = song.title
             cell.trackNumber.text = "\(song.albumTrackNumber)"
@@ -141,7 +141,7 @@ extension AlbumInfoVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.section > 0 {
-            selectedSection = indexPath.section-1
+            selectedSection = indexPath.section - 1
             selectedRow = indexPath.row
             
             playSong()
@@ -168,7 +168,11 @@ extension AlbumInfoVC: UITableViewDelegate, UITableViewDataSource {
         
         checkNowPlayingButton()
         
-        performSegue(withIdentifier: "to_PlaybackVC", sender: self)
+        print(appDelegate.activeItem.releaseDate)
+        
+        DispatchQueue.main.async {
+            self.performSegue(withIdentifier: "to_PlaybackVC", sender: self)
+        }
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

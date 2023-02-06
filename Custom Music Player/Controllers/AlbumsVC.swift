@@ -109,8 +109,10 @@ extension AlbumsVC: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         selectedRow = indexPath.item
         
-        generateHapticFeedback()
-        performSegue(withIdentifier: "to_AlbumInfoVC", sender: self)
+        DispatchQueue.main.async {
+            generateHapticFeedback()
+            self.performSegue(withIdentifier: "to_AlbumInfoVC", sender: self)
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
