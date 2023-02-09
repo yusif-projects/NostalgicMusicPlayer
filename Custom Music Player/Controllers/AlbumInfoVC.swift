@@ -168,8 +168,6 @@ extension AlbumInfoVC: UITableViewDelegate, UITableViewDataSource {
         
         checkNowPlayingButton()
         
-        print(appDelegate.activeItem.releaseDate)
-        
         DispatchQueue.main.async {
             self.performSegue(withIdentifier: "to_PlaybackVC", sender: self)
         }

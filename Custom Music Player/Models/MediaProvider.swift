@@ -44,8 +44,6 @@ struct SongItem {
     func info() -> String {
         var info = ""
         
-        info.append("\(songTitle)\n\n")
-        
         info.append("Disc \(discNumber) of \(discCount)\n")
         info.append("Track \(trackNumber) of \(trackCount)\n\n")
         

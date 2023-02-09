@@ -22,8 +22,6 @@ class PlaybackVC: UIViewController {
     @IBOutlet weak var durationLabel: UILabel!
     @IBOutlet weak var lyricsView: UIVisualEffectView!
     @IBOutlet weak var lyricsTextView: UITextView!
-    @IBOutlet weak var infoView: UIView!
-    @IBOutlet weak var infoTextView: UITextView!
     
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     var tabVC: CustomTabBarVC!
@@ -40,17 +38,11 @@ class PlaybackVC: UIViewController {
         
         songProgressSlider.minimumValue = 0
         songProgressSlider.isUserInteractionEnabled = false
-        songProgressSlider.setThumbImage(UIImage(), for: .normal)
         songProgressSlider.minimumTrackTintColor = .white
         
         lyricsTextView.textContainerInset = UIEdgeInsets(top: 25, left: 0, bottom: 25, right: 0)
         
-        infoTextView.textContainerInset = UIEdgeInsets(top: 25, left: 8, bottom: 25, right: 8)
-        infoTextView.layer.shadowColor = UIColor.black.cgColor
-        infoTextView.layer.shadowOffset = CGSize(width: 0, height: 0)
-        infoTextView.layer.shadowRadius = 8
-        infoTextView.layer.shadowOpacity = 0.5
-        infoTextView.layer.cornerRadius = 8
+        songProgressSlider.setThumbImage(UIImage(named: "slider-thumb-image"), for: .normal)
         
         updateUI()
     }
@@ -62,7 +54,11 @@ class PlaybackVC: UIViewController {
     
     @IBAction func toggleInfo(_ sender: Any) {
         generateHapticFeedback()
-        infoView.isHidden.toggle()
+        
+        if let customAlert = UIStoryboard(name: "Main", bundle: .main).instantiateViewController(withIdentifier: "CustomAlert") as? CustomAlert {
+            customAlert.songItem = appDelegate.activeItem!.convertToSongItem()
+            self.present(customAlert, animated: false)
+        }
     }
     
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
@@ -102,7 +98,6 @@ class PlaybackVC: UIViewController {
         let item = appDelegate.activeItem!
         checkPlayButton()
         lyricsTextView.text = item.lyrics ?? ""
-        infoTextView.text = item.convertToSongItem().info()
         songTitleLabel.text = item.title ?? ""
         albumTitleLabel.text = item.albumTitle ?? ""
         artistLabel.text = item.artist ?? ""
