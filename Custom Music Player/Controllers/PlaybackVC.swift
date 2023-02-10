@@ -26,6 +26,7 @@ class PlaybackVC: UIViewController {
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     var tabVC: CustomTabBarVC!
     var duration: Double!
+    var timer: Timer!
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
@@ -37,12 +38,19 @@ class PlaybackVC: UIViewController {
         overrideUserInterfaceStyle = .light
         
         songProgressSlider.minimumValue = 0
-        songProgressSlider.isUserInteractionEnabled = false
         songProgressSlider.minimumTrackTintColor = .white
         
         lyricsTextView.textContainerInset = UIEdgeInsets(top: 25, left: 0, bottom: 25, right: 0)
         
-        songProgressSlider.setThumbImage(UIImage(named: "slider-thumb-image"), for: .normal)
+        let originalImage = UIImage(named: "slider-thumb-image")
+        let size = CGSize(width: 24, height: 24)
+
+        let renderer = UIGraphicsImageRenderer(size: size)
+        let resizedImage = renderer.image { (context) in
+            originalImage?.draw(in: CGRect(origin: .zero, size: size))
+        }
+
+        songProgressSlider.setThumbImage(resizedImage, for: .normal)
         
         updateUI()
     }
@@ -84,14 +92,22 @@ class PlaybackVC: UIViewController {
         playSong()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         
-        Timer.scheduledTimer(withTimeInterval: 1/60, repeats: true) { timer in
+        startTimer()
+    }
+    
+    func startTimer() {
+        timer = Timer.scheduledTimer(withTimeInterval: 1/60, repeats: true) { t in
             self.songProgressSlider.value = Float(self.appDelegate.audioPlayer.currentTime)
-            self.songProgressLabel.text = getDuration(value: self.appDelegate.audioPlayer.currentTime)
-            self.durationLabel.text = getDuration(value: self.duration - self.appDelegate.audioPlayer.currentTime)
+            self.updateProgress()
         }
+    }
+    
+    func updateProgress() {
+        self.songProgressLabel.text = getDuration(value: self.appDelegate.audioPlayer.currentTime)
+        self.durationLabel.text = getDuration(value: self.duration - self.appDelegate.audioPlayer.currentTime)
     }
     
     func updateUI() {
@@ -142,17 +158,30 @@ class PlaybackVC: UIViewController {
     
     @IBAction func previousButtonPressed(_ sender: Any) {
         generateHapticFeedback()
-        if appDelegate.activeAlbum.0.isEmpty {
-            tabVC.songsVC.selectPreviousSong()
-            updateUI()
+        if appDelegate.audioPlayer.currentTime > 1 {
+            appDelegate.audioPlayer.currentTime = 0
         } else {
-            selectPreviousSong()
-            updateUI()
+            if appDelegate.activeAlbum.0.isEmpty {
+                tabVC.songsVC.selectPreviousSong()
+                updateUI()
+            } else {
+                selectPreviousSong()
+                updateUI()
+            }
         }
     }
     
     @IBAction func songProgressSliderChangedValue(_ sender: Any) {
-        
+        if let slider = sender as? UISlider {
+            if slider.isTracking {
+                timer.invalidate()
+                appDelegate.audioPlayer.currentTime = TimeInterval(slider.value)
+                updateProgress()
+            } else {
+                appDelegate.audioPlayer.currentTime = TimeInterval(slider.value)
+                startTimer()
+            }
+        }
     }
     
     func songAmmount(in section: Int) -> Int {
