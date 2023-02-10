@@ -3,7 +3,7 @@ import MediaPlayer
 import AVFoundation
 import Haptico
 
-class SongsVC: UIViewController {
+class SongsVC: PrototypeVC {
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var tableView: UITableView!
@@ -25,7 +25,6 @@ class SongsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        overrideUserInterfaceStyle = .light
         
         appDelegate.activeVC = self
         

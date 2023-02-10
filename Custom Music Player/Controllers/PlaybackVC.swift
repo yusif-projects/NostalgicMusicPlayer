@@ -10,7 +10,7 @@ import MediaPlayer
 import AVFoundation
 import Haptico
 
-class PlaybackVC: UIViewController {
+class PlaybackVC: PrototypeVC {
     
     @IBOutlet weak var albumCoverView: UIImageView!
     @IBOutlet weak var playButtonImageView: UIImageView!
@@ -27,15 +27,9 @@ class PlaybackVC: UIViewController {
     var tabVC: CustomTabBarVC!
     var duration: Double!
     var timer: Timer!
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        overrideUserInterfaceStyle = .light
         
         songProgressSlider.minimumValue = 0
         songProgressSlider.minimumTrackTintColor = .white

@@ -8,7 +8,7 @@
 import UIKit
 import MediaPlayer
 
-class CustomTabBarVC: UIViewController {
+class CustomTabBarVC: PrototypeVC {
     
     var embeddedController: UIViewController!
     
@@ -38,14 +38,8 @@ class CustomTabBarVC: UIViewController {
     
     var selectedTab: Int = 2
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .darkContent
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        overrideUserInterfaceStyle = .light
         
         songsVC = (appDelegate.activeVC as! SongsVC)
         songsVC.tabVC = self

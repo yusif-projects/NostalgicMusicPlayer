@@ -7,21 +7,16 @@
 
 import UIKit
 
-class CustomAlert: UIViewController {
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle { return .lightContent }
-    override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation { return .portrait }
-    
-    var songItem: SongItem!
+class CustomAlert: PrototypeVC {
     
     @IBOutlet weak var backgroundView: UIView!
     @IBOutlet weak var topLabel: UILabel!
     @IBOutlet weak var bottomLabel: UILabel!
     
+    var songItem: SongItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        overrideUserInterfaceStyle = .light
         
         backgroundView.layer.cornerRadius = 8
         

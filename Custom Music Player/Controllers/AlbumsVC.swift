@@ -2,7 +2,7 @@ import UIKit
 import MediaPlayer
 import AVFoundation
 
-class AlbumsVC: UIViewController {
+class AlbumsVC: PrototypeVC {
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var collectionView: UICollectionView!
@@ -24,7 +24,6 @@ class AlbumsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        overrideUserInterfaceStyle = .light
         
         appDelegate.activeVC = self
         

@@ -8,7 +8,7 @@
 import UIKit
 import MediaPlayer
 
-class AlbumInfoVC: UIViewController {
+class AlbumInfoVC: PrototypeVC {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var nowPlayingButtonView: UIStackView!
@@ -28,8 +28,6 @@ class AlbumInfoVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        overrideUserInterfaceStyle = .light
         
         appDelegate.activeVC = self
         
