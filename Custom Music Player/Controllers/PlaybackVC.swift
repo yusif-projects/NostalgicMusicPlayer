@@ -168,7 +168,8 @@ class PlaybackVC: PrototypeVC {
     @IBAction func songProgressSliderChangedValue(_ sender: Any) {
         if let slider = sender as? UISlider {
             if slider.isTracking {
-                timer.invalidate()
+                if timer.isValid { timer.invalidate() }
+                
                 appDelegate.audioPlayer.currentTime = TimeInterval(slider.value)
                 updateProgress()
             } else {
