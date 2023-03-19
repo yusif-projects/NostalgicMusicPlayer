@@ -3,7 +3,7 @@
 ![iOS 13.0+](https://img.shields.io/badge/iOS-13.0%2B-blue.svg)
 [![License](https://img.shields.io/github/license/yusif-projects/NostalgicMusicPlayer)](https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/LICENSE)
 
-# Nostalgia Music Player
+# Nostalgic Music Player
 
 A simple music player in the style of old iOS.
 
