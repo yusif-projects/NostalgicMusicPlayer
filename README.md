@@ -29,7 +29,7 @@ A simple music player in the style of old iOS.
 
 ## 🎵 How to Install
 
-Open the [`Nostalgic Music Player.xcworkspace`](https://github.com/yusif-projects/NostalgicMusicPlayer/tree/main/Custom%20Music%20Player.xcworkspace) and run the project on your iPhone.
+Open the [`Nostalgic Music Player.xcworkspace`](https://github.com/yusif-projects/NostalgicMusicPlayer/tree/main/Nostalgic%20Music%20Player.xcworkspace) and run the project on your iPhone.
 
 ## 📖 Third-Party Libraries Used
 
