@@ -11,9 +11,13 @@ A simple music player in the style of old iOS.
 
 ✅ No internet & subscription models!
 
-✅ A sketch project for those interested in skeuomorphism!
+✅ A **Sketch** project for those interested in skeuomorphism!
 
 <img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Custom%20Music%20Player/Resources/Assets.xcassets/AppIcon.appiconset/Artboard%401024x1024.png" width="480" style="border-radius: 25px;"/>
+
+## 🎵 How to Install
+
+Open the [`Custom Music Player.xcworkspace`](https://github.com/yusif-projects/NostalgicMusicPlayer/tree/main/Custom%20Music%20Player.xcworkspace) and run the project on your iPhone.
 
 ## 📝 License
 
