@@ -15,12 +15,17 @@ A simple music player in the style of old iOS.
 
 ✅ A [`Design.sketch`](https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Design.sketch) file for those interested in how I remade those skeuomorphic UI elements!
 
-<img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Artists.PNG" width="150"/>
-<img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Songs.PNG" width="150"/>
-<img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Albums.PNG" width="150"/>
-<img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Album.PNG" width="150"/>
-<img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Player.PNG" width="150"/>
-<img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Albums%20by%20Artist.PNG" width="150"/>
+<table>
+  <tr>
+    <td><img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Artists.PNG" width="150"/></td>
+    <td><img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Songs.PNG" width="150"/></td>
+    <td><img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Albums.PNG" width="150"/></td>
+    <td><img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Album.PNG" width="150"/></td>
+    <td><img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Player.PNG" width="150"/></td>
+    <td><img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Albums%20by%20Artist.PNG" width="150"/></td>
+  </tr>
+</table>
+
 
 ## 🎵 How to Install
 
