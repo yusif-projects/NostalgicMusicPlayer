@@ -3,6 +3,8 @@
 ![iOS 13.0+](https://img.shields.io/badge/iOS-13.0%2B-blue.svg)
 [![License](https://img.shields.io/github/license/yusif-projects/NostalgicMusicPlayer)](https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/LICENSE)
 
+<img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Custom%20Music%20Player/Resources/Assets.xcassets/AppIcon.appiconset/Artboard%401024x1024.png" width="120" style="border-radius: 25px;"/>
+
 # Nostalgic Music Player
 
 A simple music player in the style of old iOS.
@@ -12,8 +14,6 @@ A simple music player in the style of old iOS.
 ✅ No internet & subscription models!
 
 ✅ A **Sketch** project for those interested in skeuomorphism!
-
-<img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Custom%20Music%20Player/Resources/Assets.xcassets/AppIcon.appiconset/Artboard%401024x1024.png" width="480" style="border-radius: 25px;"/>
 
 ## 🎵 How to Install
 
