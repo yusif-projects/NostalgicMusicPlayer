@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Custom_Music_PlayerVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Custom_Music_PlayerVersionString[];
+FOUNDATION_EXPORT double Pods_Nostalgic_Music_PlayerVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Nostalgic_Music_PlayerVersionString[];
 

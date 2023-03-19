@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2592CB90CA9D85A42654984B /* Pods_Custom_Music_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FDBF339B6D31297D8B8122 /* Pods_Custom_Music_Player.framework */; };
 		7105C61F2990F5BE0016E084 /* AlbumsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105C61E2990F5BE0016E084 /* AlbumsVC.swift */; };
 		719A931E29968CB400096EDF /* PrototypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A931D29968CB400096EDF /* PrototypeVC.swift */; };
 		71AA286C2994D67900ACBB7A /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AA286B2994D67900ACBB7A /* CustomAlert.swift */; };
@@ -23,19 +22,22 @@
 		D4853B85283D3FA90011764A /* MusicPlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4853B84283D3FA90011764A /* MusicPlayerCell.swift */; };
 		D4853B87283D50720011764A /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4853B86283D50720011764A /* CategoryCell.swift */; };
 		D4F6BABF283EA46E0029ADF6 /* Helper Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F6BABE283EA46E0029ADF6 /* Helper Functions.swift */; };
+		DD29ADEBC297FF1C3F73664B /* Pods_Nostalgic_Music_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED0AA55D009D4351043194E /* Pods_Nostalgic_Music_Player.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01D54BCA68AB5B5F50841462 /* Pods-Nostalgic Music Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nostalgic Music Player.release.xcconfig"; path = "Target Support Files/Pods-Nostalgic Music Player/Pods-Nostalgic Music Player.release.xcconfig"; sourceTree = "<group>"; };
+		39BD784A6BAE197B0BB1D68C /* Pods-Nostalgic Music Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nostalgic Music Player.debug.xcconfig"; path = "Target Support Files/Pods-Nostalgic Music Player/Pods-Nostalgic Music Player.debug.xcconfig"; sourceTree = "<group>"; };
 		7105C61E2990F5BE0016E084 /* AlbumsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsVC.swift; sourceTree = "<group>"; };
 		719A931D29968CB400096EDF /* PrototypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeVC.swift; sourceTree = "<group>"; };
 		71AA286B2994D67900ACBB7A /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 		74F941507BE54A2407FA6533 /* Pods-Custom Music Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Custom Music Player.release.xcconfig"; path = "Target Support Files/Pods-Custom Music Player/Pods-Custom Music Player.release.xcconfig"; sourceTree = "<group>"; };
 		A0CDC408BF88345A4182CEE7 /* Pods-Custom Music Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Custom Music Player.debug.xcconfig"; path = "Target Support Files/Pods-Custom Music Player/Pods-Custom Music Player.debug.xcconfig"; sourceTree = "<group>"; };
-		C7FDBF339B6D31297D8B8122 /* Pods_Custom_Music_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Custom_Music_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED0AA55D009D4351043194E /* Pods_Nostalgic_Music_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nostalgic_Music_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D412640728428BBD00AD0714 /* AlbumInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumInfoVC.swift; sourceTree = "<group>"; };
 		D4127E372841645400AC0DB5 /* PlaybackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackVC.swift; sourceTree = "<group>"; };
 		D46042A2283E7B02000471EE /* CustomTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarVC.swift; sourceTree = "<group>"; };
-		D4853B6B283D3F0F0011764A /* Custom Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4853B6B283D3F0F0011764A /* Nostalgic Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nostalgic Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4853B6E283D3F0F0011764A /* App & Scene Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App & Scene Delegates.swift"; sourceTree = "<group>"; };
 		D4853B72283D3F0F0011764A /* SongsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsVC.swift; sourceTree = "<group>"; };
 		D4853B75283D3F0F0011764A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2592CB90CA9D85A42654984B /* Pods_Custom_Music_Player.framework in Frameworks */,
+				DD29ADEBC297FF1C3F73664B /* Pods_Nostalgic_Music_Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +65,7 @@
 		098B13880D87B1614EF217D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C7FDBF339B6D31297D8B8122 /* Pods_Custom_Music_Player.framework */,
+				BED0AA55D009D4351043194E /* Pods_Nostalgic_Music_Player.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,6 +75,8 @@
 			children = (
 				A0CDC408BF88345A4182CEE7 /* Pods-Custom Music Player.debug.xcconfig */,
 				74F941507BE54A2407FA6533 /* Pods-Custom Music Player.release.xcconfig */,
+				39BD784A6BAE197B0BB1D68C /* Pods-Nostalgic Music Player.debug.xcconfig */,
+				01D54BCA68AB5B5F50841462 /* Pods-Nostalgic Music Player.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -89,6 +93,7 @@
 		D46042A5283E7B61000471EE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D4853B6E283D3F0F0011764A /* App & Scene Delegates.swift */,
 				D46042A2283E7B02000471EE /* CustomTabBarVC.swift */,
 				D4853B72283D3F0F0011764A /* SongsVC.swift */,
 				7105C61E2990F5BE0016E084 /* AlbumsVC.swift */,
@@ -138,7 +143,7 @@
 		D4853B62283D3F0F0011764A = {
 			isa = PBXGroup;
 			children = (
-				D4853B6D283D3F0F0011764A /* Custom Music Player */,
+				D4853B6D283D3F0F0011764A /* Nostalgic Music Player */,
 				D4853B6C283D3F0F0011764A /* Products */,
 				242D9744DDB875FBBBE2D8CD /* Pods */,
 				098B13880D87B1614EF217D1 /* Frameworks */,
@@ -148,30 +153,29 @@
 		D4853B6C283D3F0F0011764A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4853B6B283D3F0F0011764A /* Custom Music Player.app */,
+				D4853B6B283D3F0F0011764A /* Nostalgic Music Player.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4853B6D283D3F0F0011764A /* Custom Music Player */ = {
+		D4853B6D283D3F0F0011764A /* Nostalgic Music Player */ = {
 			isa = PBXGroup;
 			children = (
-				D4853B6E283D3F0F0011764A /* App & Scene Delegates.swift */,
 				D46042A8283E7B66000471EE /* Extras */,
 				D46042A7283E7B64000471EE /* Models */,
 				D46042A6283E7B63000471EE /* Views */,
 				D46042A5283E7B61000471EE /* Controllers */,
 				D46042A4283E7B5F000471EE /* Resources */,
 			);
-			path = "Custom Music Player";
+			path = "Nostalgic Music Player";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4853B6A283D3F0F0011764A /* Custom Music Player */ = {
+		D4853B6A283D3F0F0011764A /* Nostalgic Music Player */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4853B7F283D3F110011764A /* Build configuration list for PBXNativeTarget "Custom Music Player" */;
+			buildConfigurationList = D4853B7F283D3F110011764A /* Build configuration list for PBXNativeTarget "Nostalgic Music Player" */;
 			buildPhases = (
 				5C2B40D6CF4431BF1C256360 /* [CP] Check Pods Manifest.lock */,
 				D4853B67283D3F0F0011764A /* Sources */,
@@ -183,9 +187,9 @@
 			);
 			dependencies = (
 			);
-			name = "Custom Music Player";
+			name = "Nostalgic Music Player";
 			productName = "Custom Music Player";
-			productReference = D4853B6B283D3F0F0011764A /* Custom Music Player.app */;
+			productReference = D4853B6B283D3F0F0011764A /* Nostalgic Music Player.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D4853B66283D3F0F0011764A /* Build configuration list for PBXProject "Custom Music Player" */;
+			buildConfigurationList = D4853B66283D3F0F0011764A /* Build configuration list for PBXProject "Nostalgic Music Player" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,7 +220,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4853B6A283D3F0F0011764A /* Custom Music Player */,
+				D4853B6A283D3F0F0011764A /* Nostalgic Music Player */,
 			);
 		};
 /* End PBXProject section */
@@ -250,7 +254,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Custom Music Player-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Nostalgic Music Player-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -263,15 +267,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Custom Music Player/Pods-Custom Music Player-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Nostalgic Music Player/Pods-Nostalgic Music Player-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Custom Music Player/Pods-Custom Music Player-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Nostalgic Music Player/Pods-Nostalgic Music Player-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Custom Music Player/Pods-Custom Music Player-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nostalgic Music Player/Pods-Nostalgic Music Player-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -369,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,7 +440,7 @@
 		};
 		D4853B80283D3F110011764A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0CDC408BF88345A4182CEE7 /* Pods-Custom Music Player.debug.xcconfig */;
+			baseConfigurationReference = 39BD784A6BAE197B0BB1D68C /* Pods-Nostalgic Music Player.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,7 +448,7 @@
 				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = 7NM5JA8Q5L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Custom Music Player/Resources/Info.plist";
+				INFOPLIST_FILE = "Nostalgic Music Player/Resources/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Music;
 				INFOPLIST_KEY_NSAppleMusicUsageDescription = Test;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -470,7 +474,7 @@
 		};
 		D4853B81283D3F110011764A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74F941507BE54A2407FA6533 /* Pods-Custom Music Player.release.xcconfig */;
+			baseConfigurationReference = 01D54BCA68AB5B5F50841462 /* Pods-Nostalgic Music Player.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,7 +482,7 @@
 				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = 7NM5JA8Q5L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Custom Music Player/Resources/Info.plist";
+				INFOPLIST_FILE = "Nostalgic Music Player/Resources/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Music;
 				INFOPLIST_KEY_NSAppleMusicUsageDescription = Test;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -505,7 +509,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4853B66283D3F0F0011764A /* Build configuration list for PBXProject "Custom Music Player" */ = {
+		D4853B66283D3F0F0011764A /* Build configuration list for PBXProject "Nostalgic Music Player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4853B7D283D3F110011764A /* Debug */,
@@ -514,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4853B7F283D3F110011764A /* Build configuration list for PBXNativeTarget "Custom Music Player" */ = {
+		D4853B7F283D3F110011764A /* Build configuration list for PBXNativeTarget "Nostalgic Music Player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4853B80283D3F110011764A /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  Helper Functions.swift
-//  Custom Music Player
+//  Nostalgic Music Player
 //
 //  Created by Yusif Aliyev on 25.05.22.
 //

@@ -57,7 +57,7 @@ struct SongItem {
     }
     
     func getDuration() -> String {
-        return Custom_Music_Player.getDuration(value: duration.doubleValue)
+        return Nostalgic_Music_Player.getDuration(value: duration.doubleValue)
     }
     
     func getComposers() -> ([Substring.SubSequence], String) {

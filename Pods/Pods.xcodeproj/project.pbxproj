@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2211FBFFE567331F166F6560361E4916 /* Pods-Nostalgic Music Player-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B4AAD8DD1CCB831BBCE0FC1A4EDB45 /* Pods-Nostalgic Music Player-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3134FBE691D544A4F7390D6A91DE5C02 /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724979CB497440E59FC60FCAF5161673 /* TapticEngine.swift */; };
-		318EEF0BF2374289B073BC1910B9CC5C /* Pods-Custom Music Player-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC67A28CD8BF97FD1E160DB667A2E97 /* Pods-Custom Music Player-dummy.m */; };
+		3A4049625542588716D53CD02D94A04F /* Pods-Nostalgic Music Player-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DB69B4B15DAF2327E6A097BEE8F62C /* Pods-Nostalgic Music Player-dummy.m */; };
 		3DB6BC2269A6A28205298D710BE87C6F /* Haptico-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE729F093FF16323A77982DC47A129A /* Haptico-dummy.m */; };
+		46B5E094CF602CE38BAEB0AF8F8557E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6FF1FDAE18BDAAD78D083DAE46C5CD3C /* Haptico-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 949BAF0FFE693900B6AB8CEB2C92220E /* Haptico-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B5FCBB8FACE48AEA2AD04C11D5F290E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7FF97BCEE5D195D5732754D993E5E72B /* PatternEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3D93E2F6025E7EE2B598DE0F2F2EE /* PatternEngine.swift */; };
 		90D591A808204AB9520FC991A0BEE0C1 /* Haptico.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCF36F75022CF12207587DF5B977ECD /* Haptico.swift */; };
 		93E040AB4DE567C89E9CBF1F18F4947C /* UIButton+Haptico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD4C5BA56FF112E8AFD5DF0E9CEFD26 /* UIButton+Haptico.swift */; };
-		A6EEA8E0909DD44A81C4C9D71D00609B /* Pods-Custom Music Player-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A4706984BCB9C966610B4D51589DF0 /* Pods-Custom Music Player-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6041CA8A02F688E7A9201318905D65A /* HapticoPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E96122221BBED8A6CF4A4D845129F /* HapticoPattern.swift */; };
 		DC07A18BBAB4633C22614DECC154EE54 /* UIViewController+Haptico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA1F0F06DB737B629BE78C81381C2A /* UIViewController+Haptico.swift */; };
 		DEEF0234459B3FF4ED6A3B59D70A6E68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5CD1114EF789660A86ACA5714013A4A5 /* PBXContainerItemProxy */ = {
+		84505D4EA0FDD8941EE0A682CF667C87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -34,33 +34,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08DE3422AE3F0F93FF2B671D8AD71B11 /* Pods-Custom Music Player-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Custom Music Player-acknowledgements.plist"; sourceTree = "<group>"; };
+		087D8BC50165C4CC60D9149743CBADFC /* Pods_Nostalgic_Music_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nostalgic_Music_Player.framework; path = "Pods-Nostalgic Music Player.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E815E0CC1DBE8EE935A741FD66691C1 /* Haptico.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Haptico.modulemap; sourceTree = "<group>"; };
 		0EFA1F0F06DB737B629BE78C81381C2A /* UIViewController+Haptico.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Haptico.swift"; path = "Sources/Haptico/Extensions/UIViewController+Haptico.swift"; sourceTree = "<group>"; };
 		0FA3D93E2F6025E7EE2B598DE0F2F2EE /* PatternEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PatternEngine.swift; path = Sources/Haptico/Engines/PatternEngine.swift; sourceTree = "<group>"; };
-		135EC55EDDCF2F546FA08D88E5EEA982 /* Pods-Custom Music Player.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Custom Music Player.modulemap"; sourceTree = "<group>"; };
 		2983654282AA486D9E563215DA12A975 /* Haptico-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Haptico-Info.plist"; sourceTree = "<group>"; };
 		430CBC8D6D6CF8AE149D6A5A12CF354B /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+Extensions.swift"; path = "Sources/Haptico/Extensions/UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		5015C5F41A0133478F393B4386CB64E6 /* Pods-Nostalgic Music Player-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nostalgic Music Player-frameworks.sh"; sourceTree = "<group>"; };
 		724979CB497440E59FC60FCAF5161673 /* TapticEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapticEngine.swift; path = Sources/Haptico/Engines/TapticEngine.swift; sourceTree = "<group>"; };
+		72DB69B4B15DAF2327E6A097BEE8F62C /* Pods-Nostalgic Music Player-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nostalgic Music Player-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		79E701E606C13D4ADB72BBE8DEECBFDA /* Pods-Custom Music Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Custom Music Player.debug.xcconfig"; sourceTree = "<group>"; };
 		7DD4C5BA56FF112E8AFD5DF0E9CEFD26 /* UIButton+Haptico.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Haptico.swift"; path = "Sources/Haptico/Extensions/UIButton+Haptico.swift"; sourceTree = "<group>"; };
 		85FACA213070A9E8F89A53E45B2C4F33 /* Haptico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Haptico.release.xcconfig; sourceTree = "<group>"; };
-		86C6168FA12B1963106429B26ECA26BD /* Pods-Custom Music Player-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Custom Music Player-Info.plist"; sourceTree = "<group>"; };
 		8BE729F093FF16323A77982DC47A129A /* Haptico-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Haptico-dummy.m"; sourceTree = "<group>"; };
-		90529A4C6CBA9F52C85DB09C4A8BF4C7 /* Pods_Custom_Music_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Custom_Music_Player.framework; path = "Pods-Custom Music Player.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		908B65C7EB0C4F089B9D50310B9FF5F8 /* Pods-Custom Music Player-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Custom Music Player-frameworks.sh"; sourceTree = "<group>"; };
 		93F656D79EB7E98E07E02A8C3EF23795 /* Haptico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Haptico.framework; path = Haptico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		949BAF0FFE693900B6AB8CEB2C92220E /* Haptico-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haptico-umbrella.h"; sourceTree = "<group>"; };
+		9B26CC24D077564BB69E88D3F9C4D407 /* Pods-Nostalgic Music Player-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nostalgic Music Player-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A07F5C34F65C29B90D29F9A538FB3DCD /* Pods-Nostalgic Music Player-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nostalgic Music Player-Info.plist"; sourceTree = "<group>"; };
 		A3FF933C35D5F2C8E6157EFB1BBB6C94 /* HapticFeedbackEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HapticFeedbackEngine.swift; path = Sources/Haptico/Engines/HapticFeedbackEngine.swift; sourceTree = "<group>"; };
 		A78E96122221BBED8A6CF4A4D845129F /* HapticoPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HapticoPattern.swift; path = Sources/Haptico/Engines/HapticoPattern.swift; sourceTree = "<group>"; };
-		A9A26ED792BA926C939F6EB0DEBFEC77 /* Pods-Custom Music Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Custom Music Player.release.xcconfig"; sourceTree = "<group>"; };
+		AA45E81232C6FC1CA03A34EE8B1C5C93 /* Pods-Nostalgic Music Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nostalgic Music Player.debug.xcconfig"; sourceTree = "<group>"; };
 		AB196DA3A42E25B163F8B555B4C389FB /* Haptico-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haptico-prefix.pch"; sourceTree = "<group>"; };
 		BA5B719AFC2C306A14F4861C88225DA3 /* Haptico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Haptico.debug.xcconfig; sourceTree = "<group>"; };
-		EC531B0FF70C7DF454ED77E7AF67AC28 /* Pods-Custom Music Player-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Custom Music Player-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EEC67A28CD8BF97FD1E160DB667A2E97 /* Pods-Custom Music Player-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Custom Music Player-dummy.m"; sourceTree = "<group>"; };
-		F5A4706984BCB9C966610B4D51589DF0 /* Pods-Custom Music Player-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Custom Music Player-umbrella.h"; sourceTree = "<group>"; };
+		C13FD70DAFB67CA0FB521D6F8AC6EB79 /* Pods-Nostalgic Music Player.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Nostalgic Music Player.modulemap"; sourceTree = "<group>"; };
+		E352B9A8EBDD8526F85274BD4C100729 /* Pods-Nostalgic Music Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nostalgic Music Player.release.xcconfig"; sourceTree = "<group>"; };
+		F0B4AAD8DD1CCB831BBCE0FC1A4EDB45 /* Pods-Nostalgic Music Player-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nostalgic Music Player-umbrella.h"; sourceTree = "<group>"; };
+		F3427BD5E083855DBF47743CEAB8D0A0 /* Pods-Nostalgic Music Player-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nostalgic Music Player-acknowledgements.plist"; sourceTree = "<group>"; };
 		FBCF36F75022CF12207587DF5B977ECD /* Haptico.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haptico.swift; path = Sources/Haptico/Haptico.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,25 +73,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B3330273C8C81AF291AD6473285FD45 /* Frameworks */ = {
+		5EB2AE3EE32756E912E61CF14CA477CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B5FCBB8FACE48AEA2AD04C11D5F290E /* Foundation.framework in Frameworks */,
+				46B5E094CF602CE38BAEB0AF8F8557E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A9F35FEF13FB1C2EFA3E9C4B2723D34 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5B2AA83CA704F71CA24DDE6B8623B050 /* Pods-Custom Music Player */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		135F723B3D567B8DF99A2EE30F001D3A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +107,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4FC09B1034E98B797FC5E174B2F15CD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93F656D79EB7E98E07E02A8C3EF23795 /* Haptico.framework */,
+				087D8BC50165C4CC60D9149743CBADFC /* Pods_Nostalgic_Music_Player.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,21 +124,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5B2AA83CA704F71CA24DDE6B8623B050 /* Pods-Custom Music Player */ = {
+		A44A71F52A325946AC025E5DC539B71B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				135EC55EDDCF2F546FA08D88E5EEA982 /* Pods-Custom Music Player.modulemap */,
-				EC531B0FF70C7DF454ED77E7AF67AC28 /* Pods-Custom Music Player-acknowledgements.markdown */,
-				08DE3422AE3F0F93FF2B671D8AD71B11 /* Pods-Custom Music Player-acknowledgements.plist */,
-				EEC67A28CD8BF97FD1E160DB667A2E97 /* Pods-Custom Music Player-dummy.m */,
-				908B65C7EB0C4F089B9D50310B9FF5F8 /* Pods-Custom Music Player-frameworks.sh */,
-				86C6168FA12B1963106429B26ECA26BD /* Pods-Custom Music Player-Info.plist */,
-				F5A4706984BCB9C966610B4D51589DF0 /* Pods-Custom Music Player-umbrella.h */,
-				79E701E606C13D4ADB72BBE8DEECBFDA /* Pods-Custom Music Player.debug.xcconfig */,
-				A9A26ED792BA926C939F6EB0DEBFEC77 /* Pods-Custom Music Player.release.xcconfig */,
+				C47CD44BA61138BC91296C7A7DB9CBEB /* Pods-Nostalgic Music Player */,
 			);
-			name = "Pods-Custom Music Player";
-			path = "Target Support Files/Pods-Custom Music Player";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C47CD44BA61138BC91296C7A7DB9CBEB /* Pods-Nostalgic Music Player */ = {
+			isa = PBXGroup;
+			children = (
+				C13FD70DAFB67CA0FB521D6F8AC6EB79 /* Pods-Nostalgic Music Player.modulemap */,
+				9B26CC24D077564BB69E88D3F9C4D407 /* Pods-Nostalgic Music Player-acknowledgements.markdown */,
+				F3427BD5E083855DBF47743CEAB8D0A0 /* Pods-Nostalgic Music Player-acknowledgements.plist */,
+				72DB69B4B15DAF2327E6A097BEE8F62C /* Pods-Nostalgic Music Player-dummy.m */,
+				5015C5F41A0133478F393B4386CB64E6 /* Pods-Nostalgic Music Player-frameworks.sh */,
+				A07F5C34F65C29B90D29F9A538FB3DCD /* Pods-Nostalgic Music Player-Info.plist */,
+				F0B4AAD8DD1CCB831BBCE0FC1A4EDB45 /* Pods-Nostalgic Music Player-umbrella.h */,
+				AA45E81232C6FC1CA03A34EE8B1C5C93 /* Pods-Nostalgic Music Player.debug.xcconfig */,
+				E352B9A8EBDD8526F85274BD4C100729 /* Pods-Nostalgic Music Player.release.xcconfig */,
+			);
+			name = "Pods-Nostalgic Music Player";
+			path = "Target Support Files/Pods-Nostalgic Music Player";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -146,8 +155,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				26CAFAF69A1B5842083A1BAB1664A9C6 /* Pods */,
-				E59060428E48BE87229B66F55299FECC /* Products */,
-				0A9F35FEF13FB1C2EFA3E9C4B2723D34 /* Targets Support Files */,
+				4FC09B1034E98B797FC5E174B2F15CD8 /* Products */,
+				A44A71F52A325946AC025E5DC539B71B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,23 +185,14 @@
 			path = Haptico;
 			sourceTree = "<group>";
 		};
-		E59060428E48BE87229B66F55299FECC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				93F656D79EB7E98E07E02A8C3EF23795 /* Haptico.framework */,
-				90529A4C6CBA9F52C85DB09C4A8BF4C7 /* Pods_Custom_Music_Player.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E28B48976EB85F11B01C0A3B17B1FFA6 /* Headers */ = {
+		0323DDF464B40239EA29F8068FF4EA98 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6EEA8E0909DD44A81C4C9D71D00609B /* Pods-Custom Music Player-umbrella.h in Headers */,
+				2211FBFFE567331F166F6560361E4916 /* Pods-Nostalgic Music Player-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +225,23 @@
 			productReference = 93F656D79EB7E98E07E02A8C3EF23795 /* Haptico.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A435DF2A722D8A824CB120B5B5CC5DC9 /* Pods-Custom Music Player */ = {
+		C4256D08521294EE1CA28627E12DCF76 /* Pods-Nostalgic Music Player */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98D8B40C49E967F1E9C4B95CBEB2D075 /* Build configuration list for PBXNativeTarget "Pods-Custom Music Player" */;
+			buildConfigurationList = 7FFF496E855E5F3742DA0DAF86588467 /* Build configuration list for PBXNativeTarget "Pods-Nostalgic Music Player" */;
 			buildPhases = (
-				E28B48976EB85F11B01C0A3B17B1FFA6 /* Headers */,
-				18E87609F41A14A86F5136595382E004 /* Sources */,
-				9B3330273C8C81AF291AD6473285FD45 /* Frameworks */,
-				EF5EEBCAEE9857F9086FA400076D21D0 /* Resources */,
+				0323DDF464B40239EA29F8068FF4EA98 /* Headers */,
+				B0B9E9178C18379C2D4D60D83C187ACB /* Sources */,
+				5EB2AE3EE32756E912E61CF14CA477CB /* Frameworks */,
+				1C740A614785F407250019704A6E97B2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FD97A965B560902232CFB4A84A1FC50A /* PBXTargetDependency */,
+				4AB1ABADDCD65804B4E4D111ABE26B4F /* PBXTargetDependency */,
 			);
-			name = "Pods-Custom Music Player";
-			productName = "Pods-Custom Music Player";
-			productReference = 90529A4C6CBA9F52C85DB09C4A8BF4C7 /* Pods_Custom_Music_Player.framework */;
+			name = "Pods-Nostalgic Music Player";
+			productName = "Pods-Nostalgic Music Player";
+			productReference = 087D8BC50165C4CC60D9149743CBADFC /* Pods_Nostalgic_Music_Player.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -262,25 +262,25 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E59060428E48BE87229B66F55299FECC /* Products */;
+			productRefGroup = 4FC09B1034E98B797FC5E174B2F15CD8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6EB9AEE9A59747F5A6B5763D6754E351 /* Haptico */,
-				A435DF2A722D8A824CB120B5B5CC5DC9 /* Pods-Custom Music Player */,
+				C4256D08521294EE1CA28627E12DCF76 /* Pods-Nostalgic Music Player */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		41ACA565C97F2303D412D1D2C6A44C0E /* Resources */ = {
+		1C740A614785F407250019704A6E97B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF5EEBCAEE9857F9086FA400076D21D0 /* Resources */ = {
+		41ACA565C97F2303D412D1D2C6A44C0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,14 +290,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18E87609F41A14A86F5136595382E004 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				318EEF0BF2374289B073BC1910B9CC5C /* Pods-Custom Music Player-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		30AB0E34B7EA7CCE5C8946679886133E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,21 +306,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0B9E9178C18379C2D4D60D83C187ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4049625542588716D53CD02D94A04F /* Pods-Nostalgic Music Player-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FD97A965B560902232CFB4A84A1FC50A /* PBXTargetDependency */ = {
+		4AB1ABADDCD65804B4E4D111ABE26B4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Haptico;
 			target = 6EB9AEE9A59747F5A6B5763D6754E351 /* Haptico */;
-			targetProxy = 5CD1114EF789660A86ACA5714013A4A5 /* PBXContainerItemProxy */;
+			targetProxy = 84505D4EA0FDD8941EE0A682CF667C87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		389F5B82D63AEBE6660D0D3D2F5BDCE0 /* Release */ = {
+		1F56D3E41F23F68281213A4DBDF3884C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9A26ED792BA926C939F6EB0DEBFEC77 /* Pods-Custom Music Player.release.xcconfig */;
+			baseConfigurationReference = AA45E81232C6FC1CA03A34EE8B1C5C93 /* Pods-Nostalgic Music Player.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -340,16 +340,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Custom Music Player/Pods-Custom Music Player-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nostalgic Music Player/Pods-Nostalgic Music Player-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Custom Music Player/Pods-Custom Music Player.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Nostalgic Music Player/Pods-Nostalgic Music Player.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -358,13 +358,81 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BE945BD3F7A781B7B16161A5DFB5EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85FACA213070A9E8F89A53E45B2C4F33 /* Haptico.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Haptico/Haptico-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Haptico/Haptico-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Haptico/Haptico.modulemap";
+				PRODUCT_MODULE_NAME = Haptico;
+				PRODUCT_NAME = Haptico;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+		8359435C8BD1ABBEBA524E3E26C41770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA5B719AFC2C306A14F4861C88225DA3 /* Haptico.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Haptico/Haptico-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Haptico/Haptico-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Haptico/Haptico.modulemap";
+				PRODUCT_MODULE_NAME = Haptico;
+				PRODUCT_NAME = Haptico;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -417,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -430,113 +498,7 @@
 			};
 			name = Debug;
 		};
-		5BE945BD3F7A781B7B16161A5DFB5EAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85FACA213070A9E8F89A53E45B2C4F33 /* Haptico.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Haptico/Haptico-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Haptico/Haptico-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Haptico/Haptico.modulemap";
-				PRODUCT_MODULE_NAME = Haptico;
-				PRODUCT_NAME = Haptico;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7635DC35E625CC5C670CE98F8EC26132 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79E701E606C13D4ADB72BBE8DEECBFDA /* Pods-Custom Music Player.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Custom Music Player/Pods-Custom Music Player-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Custom Music Player/Pods-Custom Music Player.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8359435C8BD1ABBEBA524E3E26C41770 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA5B719AFC2C306A14F4861C88225DA3 /* Haptico.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Haptico/Haptico-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Haptico/Haptico-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Haptico/Haptico.modulemap";
-				PRODUCT_MODULE_NAME = Haptico;
-				PRODUCT_NAME = Haptico;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -586,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -598,23 +560,61 @@
 			};
 			name = Release;
 		};
+		BDB75E7C03E444A010776CE4EB1B2CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E352B9A8EBDD8526F85274BD4C100729 /* Pods-Nostalgic Music Player.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nostalgic Music Player/Pods-Nostalgic Music Player-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nostalgic Music Player/Pods-Nostalgic Music Player.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4214E6946993DF02ED98D89047C64016 /* Debug */,
-				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98D8B40C49E967F1E9C4B95CBEB2D075 /* Build configuration list for PBXNativeTarget "Pods-Custom Music Player" */ = {
+		7FFF496E855E5F3742DA0DAF86588467 /* Build configuration list for PBXNativeTarget "Pods-Nostalgic Music Player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7635DC35E625CC5C670CE98F8EC26132 /* Debug */,
-				389F5B82D63AEBE6660D0D3D2F5BDCE0 /* Release */,
+				1F56D3E41F23F68281213A4DBDF3884C /* Debug */,
+				BDB75E7C03E444A010776CE4EB1B2CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 //
 //  AlbumInfoVC.swift
-//  Custom Music Player
+//  Nostalgic Music Player
 //
 //  Created by Yusif Aliyev on 28.05.22.
 //
