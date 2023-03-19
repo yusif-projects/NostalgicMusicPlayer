@@ -94,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				D4853B6E283D3F0F0011764A /* App & Scene Delegates.swift */,
+				719A931D29968CB400096EDF /* PrototypeVC.swift */,
 				D46042A2283E7B02000471EE /* CustomTabBarVC.swift */,
 				D4853B72283D3F0F0011764A /* SongsVC.swift */,
 				7105C61E2990F5BE0016E084 /* AlbumsVC.swift */,
@@ -116,9 +117,8 @@
 		D46042A7283E7B64000471EE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				719A931D29968CB400096EDF /* PrototypeVC.swift */,
-				D4853B82283D3F420011764A /* MediaProvider.swift */,
 				D46042A9283E7BF4000471EE /* UITableViewCells */,
+				D4853B82283D3F420011764A /* MediaProvider.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,10 +161,10 @@
 		D4853B6D283D3F0F0011764A /* Nostalgic Music Player */ = {
 			isa = PBXGroup;
 			children = (
-				D46042A8283E7B66000471EE /* Extras */,
 				D46042A7283E7B64000471EE /* Models */,
 				D46042A6283E7B63000471EE /* Views */,
 				D46042A5283E7B61000471EE /* Controllers */,
+				D46042A8283E7B66000471EE /* Extras */,
 				D46042A4283E7B5F000471EE /* Resources */,
 			);
 			path = "Nostalgic Music Player";
