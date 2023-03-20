@@ -20,6 +20,8 @@ A simple music player in the style of old iOS.
     <td><img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Artists.PNG" width="150"/></td>
     <td><img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Songs.PNG" width="150"/></td>
     <td><img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Albums.PNG" width="150"/></td>
+</tr>
+<tr>
     <td><img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Album.PNG" width="150"/></td>
     <td><img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Player.PNG" width="150"/></td>
     <td><img src="https://github.com/yusif-projects/NostalgicMusicPlayer/blob/main/Images%20and%20Gifs/Albums%20by%20Artist.PNG" width="150"/></td>
